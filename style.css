@@ -391,28 +391,7 @@ opacity: 0.8;
     --color-backgrouh-1: linear-gradient(120deg,#0e0c0c, #171717);
         
 }
-@media screen and (max-width: 409px){
-    .footer-context{
-        grid-template-columns: repeat(1,1fr);
-        gap: 2rem;
-        padding: 3rem 2rem;
-    
-    }
-    .animacao-texto p{
-    margin-top: 50px;
-    font-family: 'Monomaniac One', sans-serif;
-    text-align: center;
-    border-right: 4px solid;
-    width: 19ch;
-    font-size: 3rem;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    background-color: var();
-    animation: digitando 3.9s steps(45),blinking 0.5s infinite step-end alternate;
-    .nav-bar{
-    width: 10000rem;
-    }
+
     .video{
         display: contents;
         margin: 0%;
