@@ -96,6 +96,10 @@ opacity: 0.8;
         justify-content: center;
         padding: 1.5rem 4rem;
     }
+    .video{
+        display: flex;
+        margin-right: 7rem;
+    }
     .dowload{
         display: flex;
         width: 100%;
@@ -392,13 +396,6 @@ opacity: 0.8;
         
 }
 
-    .video{
-        display: contents;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-    }
-}
 *{
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -563,7 +560,13 @@ font-size: 1.5rem;
     
 }
 
-
+@media screen and (max-width: 409px){
+    .footer-context{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        padding: 3rem 2rem;
+    
+    }
     .animacao-texto p{
     margin-top: 50px;
     font-family: 'Monomaniac One', sans-serif;
@@ -576,6 +579,15 @@ font-size: 1.5rem;
     overflow: hidden;
     background-color: var();
     animation: digitando 3.9s steps(45),blinking 0.5s infinite step-end alternate;
+    .nav-bar{
+    width: 10000rem;
+    }
+    .video{
+        display: contents;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
 }
     
 }
